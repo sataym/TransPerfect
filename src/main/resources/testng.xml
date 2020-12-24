@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wafoo fitness Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="TransPerfect Test Cases">
+		<classes>
+			<class name="com.wahoofitness.qa.testcases.HomePageTest"></class>
+		</classes>
+	</test>
+</suite>
